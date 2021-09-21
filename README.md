@@ -8,6 +8,8 @@
 
 ### Technologies used in development:
 
-<img src="C:\Users\vinicius.almeida\Downloads\logo.png" style="zoom: 33%;" />
+<img src="D:\WebSite-cvsaudeanimal\imgs\png\logo-html-css-js-jquery.png" style="zoom:33%;" />
 
-<img src="C:\Users\vinicius.almeida\Pictures\logo-popper.svg" height="250px"/>  																	<img src="C:\Users\vinicius.almeida\Pictures\logo bootstrap.png" height="250px"/>
+
+
+<img src="D:\WebSite-cvsaudeanimal\imgs\svg\logo-popper.svg" height="230px" />  																	<img src="D:\WebSite-cvsaudeanimal\imgs\png\logo-bootstrap.png" height="230px" />
