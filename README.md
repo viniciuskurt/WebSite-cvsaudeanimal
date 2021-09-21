@@ -14,4 +14,4 @@
 
 
 ### Access the project page: 
-<p><a href="http://cvsaudeanimal.com.br" target="_blank"> cvsaudeanimal.com.br </a></p>
+<p><a href="http://cvsaudeanimal.com.br" target="blank"> cvsaudeanimal.com.br </a></p>
