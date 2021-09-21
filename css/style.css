@@ -1,0 +1,255 @@
+@font-face{
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+   
+@font-face {
+	   font-family: 'Blippok';
+	   src: url("../fonts/Blippo/Blippok.ttf");
+	   font-size: 1em;
+}
+   
+@font-face {
+	   font-family: 'PatuaOne';
+	   src: url("../fonts/Patua_One/PatuaOne.ttf");
+	   font-size: 1em;
+}
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.container-fluid{
+	padding: 0 auto;
+	
+}
+
+.topo{
+	background-color:  #93C35F;
+
+}
+
+.font-blippok{
+	font-family: 'Blippok';
+}
+
+.clinica{
+	color: #000000;
+	text-shadow: 2px 2px 3px #ffffff;
+}
+
+.nome-clinica{
+	text-shadow: 3px 3px 4px #ffffff;
+	color: #045b20;
+}
+
+.telefone-clinica{
+	font-family: 'OpenSans';
+}
+
+.telefone-clinica a{
+	color: #ffffff;
+}
+
+.linha-verde{
+	height: auto;
+	border-top: 3px solid #ffffff;
+	height: 18px;
+	background-color: #045B2E;
+	
+
+}
+
+.chamada-inicial{
+	color: #1160c6;
+	font-family: "PatuaOne";
+}
+
+.valores{
+	padding-left: 10%;
+	padding-right:10%;
+}
+
+.imagens-cards img{
+	max-width: 40%;
+	margin: 0 auto;
+}
+
+#servicos .card{
+	width: 220px;
+	height: 220px;
+	border-radius: 120px;
+	box-shadow: 20px 7px 20px  #C0C0C0;
+}
+
+#servicos img{
+	width: 70px;
+}
+
+#servicos h4{
+	text-align: center;
+	font-family: "PatuaOne";
+}
+
+#servicos .card:hover{
+	background-color: #007bff;
+	color:  #fff;
+}
+
+#servicos .saiba-mais{
+	font-family: "OpenSans";
+	font-size: 16px;
+	font-weight:bold ;
+	text-decoration: overline; 
+}
+
+#cards-destaque .card{
+	border: #045B2E solid 1px;
+	border-radius: 13px;
+}
+
+.cards-imagem img{
+	width: 280px;
+	height: 158px;
+	margin: 0 auto;
+}
+
+#linha-amarela{
+	text-align: center;
+}
+
+.jumbotron{
+	margin-bottom: 0;
+}
+
+.jumbotron-fluid {
+	
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#linha-amarela hr {
+	width: 50%;
+	border: solid 2px #fde192;
+}
+
+.fonte-servicos{
+	font-family: 'OpenSans';
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#rodape{
+	background-color: #171f26;
+}
+
+#rodape p{
+	color: #93C35F;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-bottom: -15px;
+}
+
+#rodape h1{
+	text-shadow: 2px 2px 3px  #ffffff;
+	font-size: 50px;
+	color: #045B2E;
+}
+
+#rodape h4{
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+#rodape span{
+	font-family: 'OpenSans';
+	text-shadow:none;
+	font-size: 18px;
+
+}
+
+.row-cinza-escuro{
+	height: 50px;
+	background-color: #11171d;
+	border-top: #242d37 3px solid;
+}
+
+.row-cinza-escuro p{
+	color: #ffffff;
+	font-family: 'OpenSans';
+	font-size: 16px;
+	margin-top: 17px;
+}
+
+.row-final{
+	background-color: #11171d;
+	border-top: #242d37 4px solid;
+	
+}
+
+.sombra{
+	text-shadow: 3px 10px 10px #C0C0C0;
+
+}
+.svg-mapa img{
+	width: 60px;
+}
+
+.mapa{
+	padding: 0 ;
+	height: 50em;	
+
+}
+
+.faixada-clinica img{
+	width: 700px;
+	height: 400px;
+	border-radius: 5px;
+}
+
+.imagens-clinica img{
+	width: 350px;
+	height: 200px;
+}
+
+#pata-digital img{
+	width: 250px;
+	height: 250px;
+	margin-bottom: 50px;
+
+}
+
+#emergencia{
+	background-color: yellow;
+	height:auto;
+}
+
+#emergencia h2{
+	margin-top: 3%;
+}
+
+#emergencia h2, #emergencia h4, #emergencia strong{
+	color: red;
+}
+
+#emergencia img{
+	width: 50px;
+	margin-top: -20px;
+}
+
+.emergencia{
+	animation: blinker 2s linear infinite;
+}
+
+#rodape a{
+	text-decoration: none;
+}
+
+/*-------------------KEYFRAMES----------------------------*/
+
+@keyframes blinker{
+	50% {opacity: 0.4;}
+}
