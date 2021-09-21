@@ -13,4 +13,5 @@
 
 
 
-Access the project page: <p><a href="http://cvsaudeanimal.com.br"> cvsaudeanimal.com.br </a></p>
+### Access the project page: 
+<p><a href="http://cvsaudeanimal.com.br" target="_blank"> cvsaudeanimal.com.br </a></p>
